@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    padding: 10px;
+    background: rgb(250, 231, 234);
+}
+/* Header/Blog Title */
+.header {
+    padding: 150px;
+    text-align: center;
+    background-image: url('../img/nen14.png');
+    background-size: 100% 100%;
+    color: white;
+}
+.header h1 {
+    font-size: 40px;
+}
+.header p {
+    font-size: 20px;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: pink;
+}
+
+/* Định dạng link điều hướng */
+.topnav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: blink;
+    font-size: 20px;
+}
+/* Thay đổi màu liên kết khi di chuột qua */
+.topnav a:hover {
+    background-color: rgb(230, 125, 141);
+    color: white;
+}
+/* Cột phải */
+.rightcolumn {
+    float: right;
+    width: 25%;
+    background-color: rgb(250, 231, 234);
+    padding-right: 30px;
+}
+.leftcolumn {
+    float: left;
+    width: 75%;
+    background-color: rgb(250, 231, 234);
+}
+/* Hình ảnh bài viết*/
+.images {
+    width:100%;
+    height: 200px;
+}
+/* Thay đổi ảnh liên kết khi di chuột qua */
+.images:hover {
+    filter:blur(3px);
+}
+/* Thêm định dạng thẻ cho bài viết */
+.card-news {
+    width:45%;
+    background-color: white;
+    padding: 10px;
+    margin:5px;
+    float: right;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 5px;
+    text-align: center;
+    float: left;
+}
+/* Clear float khác sau các cột */
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+.footer {
+    padding: 1px;
+    background: pink;
+    margin-top: 5px;
+}
+.footer1>h4 {
+    text-align: center;
+    
+}
+.footer1{
+    float:left;
+    width:30%;
+}
+.footer2{
+    float:right;
+    width:30%;
+}
+.footer:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.footer>ul>li{
+    list-style: none;
+    text-align: justify;
+}
+.footer3{
+    float:right;
+    width:40%;
+    text-align: justify;
+}
+.form-group{
+    margin: 10px 0px;
+    font-size: 20px;
+} 
+
+.form-control{
+    width: 98%;
+    padding: 20px;
+    outline:none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.form-button{
+    padding: 8px 30px;
+    outline:none;
+    border:none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color:white;
+    color:orangered;
+    box-shadow:inset 0px 0px 20px blue;
+} 
+
+.form-button:hover{
+    color:rgb(19, 1, 4);
+    box-shadow:inset 0px 0px 20px pink;
+} 
+
+
